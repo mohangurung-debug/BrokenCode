@@ -2,15 +2,15 @@
 #When you run it, enter the sample problem one line at a time and hit enter in between each line. You should get the right output.
 
 #read in how many lines there are
-lines = input()
+lines = int(input())
 #setup output variable
 output=""
 #loop through the lines
 for i in range(0,lines):
     #read in a line
-currentLine=Input()
+currentLine = Input()
     #set the current char variable and give it a dummy value
-currentChar=='a'
+currentChar=''
     #set the current count to 0
 currentCount=0
     #set the previous count variable and give it a dummy value
