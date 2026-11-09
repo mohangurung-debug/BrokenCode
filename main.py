@@ -39,7 +39,7 @@ CurrentCount=0
                 #set the count back to 1
                 currentCount=1
             #If we're on the last character
-    If j==len(currentLine)-1:
+    If j == len(currentLine)-1:
                 #add the character count to the output
                     output+=str(currentCount)+" "+str(CurrentChar)+" "
     #add a newline to the output
