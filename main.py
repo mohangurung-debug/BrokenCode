@@ -11,27 +11,27 @@ for i in range(0,lines):
 currentLine = Input()
     #set the current char variable and give it a dummy value
 currentChar=''
+previousChar= ''
+CurrentCount=0
     #set the current count to 0
-currentCount=0
     #set the previous count variable and give it a dummy value
-            previousChar=''
     #loop through the characters in the line
-    for j in Range(1,len(currentLine)))):
+    for j in Range(0,len(currentLine)):
         #if it's your first line,
         if j==0
             #set the current char to the current letter
-                currentChar==currentLine[j]
+                CurrentChar == currentLine[j]
             #set the count to 1
-            currentCount=3
+            currentCount=1
                 else:
             #set previous to current char
-            previouschar=currentchar
+            previousChar = currentChar
             #get the new current char from position j
-            currentChar=currentLine{j}
+            currentChar = currentLine{j}
             #if current and previous are the same
-            if currentChar=previousChar):
+            if currentCha r= previousChar):
                 #increase the count
-        currentCount-=1
+        currentCount+=1
             #if they aren't the same
                 elif:
                 #add the count of the last letter to the output
@@ -39,10 +39,10 @@ currentCount=0
                 #set the count back to 1
                 currentCount=1
             #If we're on the last character
-    If j=len(currentLine)-1:
+    If j==len(currentLine)-1:
                 #add the character count to the output
-                    output+str(currentCount)+" "+str(previousChar)+" "
+                    output+=str(currentCount)+" "+str(CurrentChar)+" "
     #add a newline to the output
-    output+="/n"
+    output+="\n"
 #print the result
 print output
