@@ -8,9 +8,9 @@ output=""
 #loop through the lines
 for i in range(0,lines):
     #read in a line
-currentLine=input()
+    currentLine=input()
     #set the current char variable and give it a dummy value
-currentChar=='a'
+    currentChar=='a'
     #set the current count to 0
 CurrentCount=0
     #set the previous count variable and give it a dummy value
